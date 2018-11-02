@@ -51,7 +51,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="172" height="140"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wide dress" translatesAutoresizingMaskIntoConstraints="NO" id="JEN-5T-F0g">
+                                                                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wide dress" translatesAutoresizingMaskIntoConstraints="NO" id="JEN-5T-F0g">
                                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="140"/>
                                                                         <userDefinedRuntimeAttributes>
                                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -101,7 +101,7 @@
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiS-vo-Qdv">
+                                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiS-vo-Qdv">
                                                     <rect key="frame" x="112.5" y="8" width="150" height="33"/>
                                                     <color key="backgroundColor" red="0.46666666666666667" green="0.53333333333333333" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>

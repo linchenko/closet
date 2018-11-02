@@ -33,6 +33,13 @@
 		7E3BB2F82187B71000DB4014 /* ClothingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BB2F72187B71000DB4014 /* ClothingCollectionViewCell.swift */; };
 		7E3BB2FA2187B81300DB4014 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BB2F92187B81300DB4014 /* Extentions.swift */; };
 		7E3BB2FC2188D89D00DB4014 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BB2FB2188D89D00DB4014 /* HomeTableViewController.swift */; };
+		7EDF49F8218A5A1400CA8FF0 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF49F7218A5A1400CA8FF0 /* LibraryViewController.swift */; };
+		7EDF49FB218B717100CA8FF0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF49FA218B717100CA8FF0 /* CameraViewController.swift */; };
+		7EDF49FD218BAF5F00CA8FF0 /* PostSuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF49FC218BAF5F00CA8FF0 /* PostSuperViewController.swift */; };
+		7EDF49FF218BAFDD00CA8FF0 /* PostContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF49FE218BAFDD00CA8FF0 /* PostContainerViewController.swift */; };
+		7EDF4A01218BB02400CA8FF0 /* PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4A00218BB02400CA8FF0 /* PostPageViewController.swift */; };
+		7EDF4A05218BDAFF00CA8FF0 /* SearchBrowseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4A04218BDAFF00CA8FF0 /* SearchBrowseTableViewController.swift */; };
+		7EDF4A0D218BDF2800CA8FF0 /* SearchBrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF4A0C218BDF2800CA8FF0 /* SearchBrowseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +92,13 @@
 		7E3BB2F72187B71000DB4014 /* ClothingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingCollectionViewCell.swift; sourceTree = "<group>"; };
 		7E3BB2F92187B81300DB4014 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		7E3BB2FB2188D89D00DB4014 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		7EDF49F7218A5A1400CA8FF0 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		7EDF49FA218B717100CA8FF0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7EDF49FC218BAF5F00CA8FF0 /* PostSuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSuperViewController.swift; sourceTree = "<group>"; };
+		7EDF49FE218BAFDD00CA8FF0 /* PostContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContainerViewController.swift; sourceTree = "<group>"; };
+		7EDF4A00218BB02400CA8FF0 /* PostPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPageViewController.swift; sourceTree = "<group>"; };
+		7EDF4A04218BDAFF00CA8FF0 /* SearchBrowseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBrowseTableViewController.swift; sourceTree = "<group>"; };
+		7EDF4A0C218BDF2800CA8FF0 /* SearchBrowseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBrowseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +134,8 @@
 				7E2C207521890D5E00D2888C /* SearchPageViewController.swift */,
 				7E2C207721890DD700D2888C /* PeopleTableViewController.swift */,
 				7E2C207921890DE200D2888C /* ClothesTableViewController.swift */,
+				7EDF4A04218BDAFF00CA8FF0 /* SearchBrowseTableViewController.swift */,
+				7EDF4A0C218BDF2800CA8FF0 /* SearchBrowseTableViewCell.swift */,
 			);
 			path = SearchController;
 			sourceTree = "<group>";
@@ -224,6 +240,7 @@
 			children = (
 				7E3BB2F12187AEE700DB4014 /* ProfileTableViewController.swift */,
 				7E3BB2FB2188D89D00DB4014 /* HomeTableViewController.swift */,
+				7EDF49F9218B716000CA8FF0 /* Post */,
 				7E2C20742189083200D2888C /* SearchController */,
 			);
 			path = ViewControllers;
@@ -236,6 +253,18 @@
 				7E3BB2F72187B71000DB4014 /* ClothingCollectionViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7EDF49F9218B716000CA8FF0 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF49F7218A5A1400CA8FF0 /* LibraryViewController.swift */,
+				7EDF49FA218B717100CA8FF0 /* CameraViewController.swift */,
+				7EDF4A00218BB02400CA8FF0 /* PostPageViewController.swift */,
+				7EDF49FC218BAF5F00CA8FF0 /* PostSuperViewController.swift */,
+				7EDF49FE218BAFDD00CA8FF0 /* PostContainerViewController.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,20 +405,27 @@
 			files = (
 				7E2C207D218911AF00D2888C /* Notifications.swift in Sources */,
 				7E3BB2F22187AEE700DB4014 /* ProfileTableViewController.swift in Sources */,
+				7EDF49FD218BAF5F00CA8FF0 /* PostSuperViewController.swift in Sources */,
 				7E3BB2EB2187AC7500DB4014 /* Clothes.swift in Sources */,
+				7EDF49F8218A5A1400CA8FF0 /* LibraryViewController.swift in Sources */,
 				7E2C207A21890DE200D2888C /* ClothesTableViewController.swift in Sources */,
 				7E2C20732189082D00D2888C /* SearchSuperViewController.swift in Sources */,
 				7E2C207821890DD700D2888C /* PeopleTableViewController.swift in Sources */,
+				7EDF49FF218BAFDD00CA8FF0 /* PostContainerViewController.swift in Sources */,
 				7E2C207621890D5E00D2888C /* SearchPageViewController.swift in Sources */,
 				7E3BB2E82187958C00DB4014 /* User.swift in Sources */,
 				7E3BB2ED2187ACCE00DB4014 /* UserController.swift in Sources */,
+				7EDF4A0D218BDF2800CA8FF0 /* SearchBrowseTableViewCell.swift in Sources */,
 				7E3BB2FC2188D89D00DB4014 /* HomeTableViewController.swift in Sources */,
 				7E2C207F218915F800D2888C /* ContainerViewController.swift in Sources */,
 				7E3BB2FA2187B81300DB4014 /* Extentions.swift in Sources */,
 				7E3BB2F82187B71000DB4014 /* ClothingCollectionViewCell.swift in Sources */,
 				7E3BB2F52187B34300DB4014 /* ClosetTableViewCell.swift in Sources */,
+				7EDF4A05218BDAFF00CA8FF0 /* SearchBrowseTableViewController.swift in Sources */,
 				7E3BB2B321876D7700DB4014 /* AppDelegate.swift in Sources */,
 				7E3BB2F02187AD3300DB4014 /* ClosetController.swift in Sources */,
+				7EDF49FB218B717100CA8FF0 /* CameraViewController.swift in Sources */,
+				7EDF4A01218BB02400CA8FF0 /* PostPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
